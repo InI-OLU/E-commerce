@@ -21,3 +21,8 @@
     display: flex;
     gap: 30px;
 }
+@media( max-width:480px){
+    .popular h1{
+        font-size: 16px;
+    }
+}

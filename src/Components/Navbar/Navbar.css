@@ -75,12 +75,29 @@
     text-decoration: none;
 }
 @media( max-width:768px){
-  .navbar{
-  width: 200%;
-  }
+
 }
 @media( max-width:480px){
     .navbar{
-    width: 300%;
+        padding:0 10px;
     }
+    .nav-login-cart{
+        display: flex;
+        gap: 15px;
+    }
+ 
+.nav-logo p{
+  font-size: 15px;
+}
+.nav-menu{
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.nav-login-cart button{
+    width: 57px;
+    height: 20px;
+    font-size: 16px;
+}
   }

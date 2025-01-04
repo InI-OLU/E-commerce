@@ -1,14 +1,10 @@
 @media (max-width: 992px) {
 }
 @media (max-width: 768px) {
-  .shop {
-    width: 200%;
-  }
+
 }
 @media (max-width: 480px) {
-  .shop {
-    width: 320%;
-  }
+
 }
 
 * {
