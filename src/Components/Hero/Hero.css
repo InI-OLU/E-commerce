@@ -55,18 +55,29 @@
 }
 @media( max-width:480px){
     .hero{
-        height: 30vh;
+        height: 40vh;
         width: 100%;
     }
     .hero-left h2{
         font-size: 16px;
+        font-weight: 500;
     }
     .hero-left p{
         font-size: 16px;
+        font-weight: 500;
     }
     .hero-latest-btn{
-        width: 100px;
-        height: 30px;
+        width: 150px;
+        height: 40px;
         font-size: 10px;
+    }
+    .hero-left{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        padding-left:80px;
+        line-height: 1.1;
     }
 }

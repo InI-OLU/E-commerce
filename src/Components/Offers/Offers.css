@@ -42,3 +42,22 @@
     justify-content: flex-end;
     padding-top: 50px;
 }
+@media(max-width:480px) {
+    .offers{
+       height: 40vh;
+    }
+    .offers-left h1{
+        font-size: 14px;
+    }
+    .offers-left p{
+        font-size: 14px;
+    }
+    .offers-left button{
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .offers-right img{
+        width: 65px;
+    }
+   }

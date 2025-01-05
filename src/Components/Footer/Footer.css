@@ -59,5 +59,20 @@
 
   }
   @media( max-width:480px){
- 
+    .footer-logo{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .footer-socials-icon{
+        display: flex;
+        gap: 5px;
+    }
+    .footer-links{
+        display: flex;
+        list-style: none;
+        gap: 5px;
+        color: #252525;
+        font-size: 16px;
+    }
   }
